@@ -1,0 +1,205 @@
+body {
+    background-color: rgb(143, 190, 143);
+    font-family: 'roboto';
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.header img {
+    width: 85px;
+    margin-left: 100px;
+}
+
+.header .navbar {
+    margin-right: 100px;
+}
+
+.header .navbar ul {
+    list-style: none;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.box-one {
+    background-color: #fff;
+    margin-top: 15px;
+    width: 500px;
+    height: 420px;
+    box-shadow: 1px 1px 30px rgba(32, 192, 0, 0.3);
+
+}
+
+.box-one h2 {
+    text-align: center;
+}
+.box-one p {
+    font-size: large;
+    line-height: 2.2;
+    text-align: center;
+    padding: 5px 70px 70px 70px;
+}
+
+.mini-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.box-two {
+    box-shadow: 1px 1px 30px rgba(32, 192, 0, 0.3);
+    background-color: #fff;
+    width: 500px;
+    height: 200px;
+}
+
+.box-two h2 {
+    text-align: center;
+}
+
+.box-two p {
+    text-align: center;
+    padding: 0 25px 0 25px;
+    line-height: 1.8;
+
+}
+.help-me {
+    padding: 20px;
+    margin: 20px 0;
+    position: relative; /* para o botão ficar fixo à direita */
+}
+
+.help-me h2 {
+    margin-top: 0;
+    color: #2e7d32;
+    font-size: 1.5rem;
+}
+
+.help-me p {
+    color: #4e4e4e;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.help-me ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.help-me ul li {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.help-me blockquote {
+    border-left: 4px solid #4caf50;
+    padding-left: 10px;
+    font-style: italic;
+    color: #2e7d32;
+    margin: 15px 0;
+}
+
+.help-me progress {
+    width: 100%;
+    height: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+    appearance: none;
+}
+
+.help-me progress::-webkit-progress-bar {
+    background-color: #e0e0e0;
+}
+
+.help-me progress::-webkit-progress-value {
+    background-color: #4caf50;
+}
+
+.help-me progress::-moz-progress-bar {
+    background-color: #4caf50;
+}
+
+.help-me h3 {
+    margin-top: 10px;
+    color: #1b5e20;
+}
+
+.help-me .btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    top: 20px;
+    right: 20px; /* botão fixo à direita */
+}
+
+.help-me .btn:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+}
+
+
+.big-main {
+    background-color: #fff;
+    margin: 0 20px 0 20px;
+    box-shadow: 1px 1px 30px rgba(32, 192, 0, 0.3);
+}
+
+.big-main h2 {
+    padding-top: 15px;
+    text-align: center;
+}
+.box-celebrity {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+}
+
+.people {
+    margin: 0 auto;
+}
+
+.rodape {
+    background-color: rgb(79, 117, 79);
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape h1{
+    color: #fff;
+}
+
+.rodape .box-rodape-left {
+    color: #fff;
+}
+
+.material-symbols-outlined {
+    padding: 0 5px 0 5px;
+    color: #fff;
+}

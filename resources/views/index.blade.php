@@ -89,6 +89,37 @@
                 </div>
             </div>
         </div>
+        <div class="contact-section">
+        <div class="contact-form">
+            <h2>Fale Conosco</h2>
+            <form action="{{ route('contato.store') }}" method="POST">
+                @csrf
+                <div class="form-group">
+                    <label for="titulo">Título</label>
+                    <input type="text" id="titulo" name="titulo" placeholder="Digite o título" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Seu E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+            </form>
+        </div>
+
+        <div class="contact-text">
+            <h2>Por que falar conosco?</h2>
+            <p>Queremos ouvir suas ideias, sugestões e dúvidas. Seu contato nos ajuda a melhorar e a promover a causa da TI Verde.  
+            Seja para apoiar, criticar construtivamente ou compartilhar novas ações, sua voz é essencial para o nosso crescimento.</p>
+        </div>
+    </div>
+
         <footer class="rodape">
             <h1>RODAPE</h1>
             <div class="box-rodape-left">

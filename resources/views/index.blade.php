@@ -41,7 +41,7 @@
           <h1>TI Verde — tecnologia com responsabilidade ambiental</h1>
           <p>Práticas simples no dia a dia de TI reduzem consumo de energia, prolongam a vida útil do hardware e diminuem o descarte eletrônico. Vamos transformar atitude em impacto.</p>
           <p class="hero-cta">
-            <a class="btn" href="#donate">Contribua agora</a>
+            <a class="btn btn-ghost" href="#donate">Contribua agora</a>
             <a class="btn btn-ghost" href="#contact">Fale conosco</a>
           </p>
         </div>
